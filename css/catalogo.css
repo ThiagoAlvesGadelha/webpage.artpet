@@ -1,0 +1,115 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    `
+}
+body{
+    /* background-color: #000000; */
+     background-image: url(../background.jpg.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+    }
+
+    #menu-h{
+        background-color: rgb(255, 166, 0);
+        padding: 0px;
+        left: 20px;
+        bottom: 100px;
+    }
+
+    #menu-h ul{
+        max-width: 900px;
+        list-style: none;
+        padding: 0;
+        background-color: rgb(255, 166, 0);
+    }
+    
+    #menu-h ul li{
+        display: inline;
+        padding: 5px;
+    }
+    
+    #menu-h ul li a{
+        color: aliceblue;
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        transition: all .6s;
+        
+    }
+    
+    #menu-h ul li a:hover {
+        background-color: rgb(255, 30, 0);
+    }
+
+
+
+    .Produto p {
+    background: orange;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+    text-align: center;
+    }
+
+    .Produto {
+        
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+        
+    }
+
+    .Produtos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .titulo {
+        background:  rgb(255, 166, 0, 50%);;
+        color:white;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        
+        
+    }
+
+    .Produto p:hover {
+        transform: rotate(-5deg);
+    }
+
+    .footer-container{
+        background-color: rgb(255, 166, 0, 50%);
+           display: flex;
+           padding-top:0;
+           margin-top: 10vh;
+           position: relative;
+           border: solid, rgb(255, 166, 0,01);
+           height: 160px;
+           bottom: 10px;
+           left: 0;
+           right: 0;
+    }
+    .footer-content{
+        display: flex;
+        width: 300%;
+        flex-direction: column;
+    }
+    .footer-contenti{
+        position: relative;
+        top: -20px;
+        margin: 0;
+    }
+    
+    .footer-contente{
+        margin: 0;
+    }

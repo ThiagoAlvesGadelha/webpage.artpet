@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    `
+}
+
+body{
+    background-image: url(https://www.flytap.com/-/media/Flytap/new-tap-pages/travelling-with-animals/pets/flying-with-pets-og-image-1200x630.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#menu-h{
+    background-color: rgb(255, 166, 0);;
+    
+}
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(255, 166, 0);
+}
+
+#menu-h ul li{
+    display: inline;
+    padding: 5px;
+}
+
+#menu-h ul li a{
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    transition: all .6s;
+    
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(255, 30, 0);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: red;
+}
+
+.history-container{
+    display: flex;
+}
+
+.history-content{
+    display: flex;
+    flex-direction: column;
+    width: 500%;
+}
+
+.history-title{
+    align-self: center;
+}
+
+.body-container{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0,0.4);
+    text-align: justify;
+    padding: 0 16px;
+}
+
+.slideshow-container {
+    /* background-image: url(https://a-static.mlcdn.com.br/1500x1500/papel-de-parede-patinhas-cachorro-pet-shop-57x270cm-quartinhos/quartinhos2/2p1522/60d0e3b6adb6aa0f9492013a78712545.jpg);  */
+     /* border: 7px solid black; */
+     margin: 0 -16px;
+     height: '10%';
+     width:'100%';
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
+   }
+/*
+.footer-container{
+    background-color: rgb(255, 166, 0, 50%);
+    display: flex;
+    padding-top: 0;
+    margin-top: 10vh;
+    position: relative;
+    border: solid, rgb(255, 166, 0,01);
+    height: 160px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+       
+    background-color: rgb(255, 166, 0, 50%);
+    display: flex;
+    padding-top:0;
+    margin-top: 10vh; 
+    border: solid, rgb(255, 166, 0,01);
+    
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+*/
+
+.footer-container{
+    background-color: rgb(255, 166, 0, 50%);
+       display: flex;
+       padding-top:0;
+       margin-top: 10vh; 
+   /*    margin-left: 10px; */
+        margin-right: -29px;
+       position: relative;
+       border: solid, rgb(255, 166, 0,01);
+       height: 160px;
+       bottom: 20px;
+       left: -14px;
+       right: 0;
+}
+.footer-content{
+    display: flex;
+    width: -500%;
+    flex-direction: column;
+}
+.footer-contenti{
+    position: relative;
+    top: -20px;
+    margin: 0;
+}
+
+.footer-contente{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ #history-a{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#history-b{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}*/

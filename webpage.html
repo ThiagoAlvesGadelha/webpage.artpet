@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ArtPet</title>
+    <link href="css/webpage.css" type="text/css" rel="stylesheet" />
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+
+
+.titulo-contanier {
+  font-size: 50px;
+  color: #000000;
+  background-color: rgba(255, 211, 99);
+ /* border: 7px solid black; */
+  padding: 10px;
+  height: '50%';
+  width:'100%';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f8f8f8;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) 
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+*/
+/* The dots/bullets/indicators */
+.dot {
+  
+  margin: 0px;
+  background-color: #bbb;
+  border-radius: 0%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.body{
+   /* background-color: #000000; */
+    background-image: url(../Art\ PET/background.jpg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+</style>
+</head>
+<body>
+
+    <nav id="menu-h">
+        <ul>
+            <li><a href="#about">Home</a></li>
+            <li><a href="#history">Quem Somos</a></li>
+            <li><a href="#works">Contato</a></li>
+            <li><a href="#encontre">Nos encontre</a></li>
+            <li><a href="Catalogo.html">Catalogo</a></li>
+            <li><a href="formulario.html">Ajuda</a></li>
+        </ul>
+    </nav>
+
+   <!-- <div class="titulo-contanier">
+        <h1">ArtPet company</h1>
+        
+    </div> -->
+    
+       
+<div class="body-container">
+<div class="slideshow-container">
+    
+    
+<div class="mySlides fade">
+ <!-- <div class="numbertext">1 / 3</div>  -->
+  <img src="3.png" style="width:100%">
+ <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+ <!-- <div class="numbertext">2 / 3</div> -->
+  <img src="2.png" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">3 / 3</div> -->
+  <img src="1.png" style="width:100%">
+ <!-- <div class="text">Caption Three</div> -->
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<div class="corpo-contanier">
+    <h1 id="about">Seja bem vindo a Artpet!</h1>
+    <br>
+    <h3>Aqui você encontra :</h3>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+<div class="history-container">
+<div class="history-content">
+    <h2 id="history" class="history-title">Quem Somos?</h2>
+    <br>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+        <br>
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis doloremque impedit, reprehenderit expedita voluptates perspiciatis dicta reiciendis iure quae explicabo tempore repellendus rem est vitae.
+       
+    
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit inventore aut beatae aperiam perferendis.
+       
+    </p>
+</div>
+
+<div class="history-content">
+  <br>
+  <br>
+    <img src="gift.gif" style="width: 100%; margin: 8px;" />
+</div>
+</div>
+<div class="footer-container">
+  <div class="footer-content">
+    <img src="logo.png" 
+    margin="-20" 
+    width="190px"
+    height="200px">
+   </div>
+  <div class="footer-content">
+    <h2 id="works">Contate:</h2>
+    <br>
+    <a href="mailto:Thiago_gadelha95@hotmail.com">Email:Thiago_gadelha95@hotmail.com</a>
+    <br>
+    <a href="tel:+5581993752306">WhatsApp:(81)99375-2306</a>   
+    <br>
+    <a href="#">Instagram: @Artpet_acessorios</a>   
+
+  </div>
+  <div class="footer-content">
+
+    <h2 id="encontre">Nos encontre:</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.918496194008!2d-34.8938612852204!3d-8.007341994233514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18245de3eb53%3A0x664afed95e66923!2sSubida%20da%20Garapeira%2C%208%20-%20Porto%20da%20Madeira%2C%20Recife%20-%20PE%2C%2052130-191!5e0!3m2!1spt-BR!2sbr!4v1647791167224!5m2!1spt-BR!2sbr" 
+    width="200" 
+    height="100" 
+    style="border:0; margin: 8px;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe> 
+  </div>
+</div>
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
