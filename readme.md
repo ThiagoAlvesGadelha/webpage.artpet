@@ -6,4 +6,3 @@
 * Criei sem nehuma referencia, foi o primeiro e quis desenvolver de uma lojinha virtual que tenho de artigos para Pet.
 * Quais tecnologias foram utilizadas?
   (HTML, CSS e JAVASCRIPT).
-
